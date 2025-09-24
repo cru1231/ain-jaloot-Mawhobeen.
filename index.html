@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اليوم الوطني السعودي 95 - نادي الموهوبين</title>
+<style>
+* {margin:0; padding:0; box-sizing:border-box;}
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    background: linear-gradient(to bottom, #014d27, #0a2d14);
+    color: white;
+    overflow-x: hidden;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images/banner.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header h1 {
+    font-size: 4em;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+header p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav {
+    position: fixed;
+    top:0;
+    width:100%;
+    background: rgba(1,77,39,0.9);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    z-index: 1000;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+nav a:hover {color: #ffd700;}
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+.section-title::after {
+    content: '';
+    width: 60%;
+    height: 4px;
+    background: #ffd700;
+    display: block;
+    margin: 15px auto 0 auto;
+    border-radius: 2px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.card {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 20px;
+    width: 280px;
+    transition: transform 0.3s, background 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(0,0,0,0.8);
+}
+.card h3 {margin-bottom: 15px;}
+.card p {line-height: 1.6;}
+audio, iframe {width: 100%; margin-top: 10px; border-radius:10px;}
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #014d27;
+    margin-top: 50px;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.flag {
+    width: 30px;
+    vertical-align: middle;
+    margin-left:10px;
+}
+.top-image {
+    display: block;
+    margin: 60px auto 20px auto; /* نزلناها تحت شوي */
+    max-width: 400px;
+    width: 50%;
+    height: auto;
+}
+</style>
+</head>
+<body>
+
+<!-- صورة فوق الهيدر -->
+<img src="https://upload.wikimedia.org/wikipedia/ar/thumb/9/91/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A.svg/1200px-%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%8A%D9%88%D9%85_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A.svg.png" class="top-image" alt="شعار اليوم الوطني السعودي">
+
+<nav>
+    <a href="#values">قيم اليوم الوطني</a>
+    <a href="#about">عن اليوم الوطني</a>
+    <a href="#about-more">نبذة موسعة</a>
+    <a href="#events">الفعاليات</a>
+    <a href="#songs">أبرز الأغاني الوطنية</a>
+</nav>
+
+<header>
+    <h1>اليوم الوطني السعودي 95</h1>
+    <p>نادي الموهوبين - مدرسة عين جالوت</p>
+</header>
+
+<!-- باقي الموقع كما هو -->
+<section id="values" class="fade-in" style="padding: 60px 20px; margin: 40px 0;">
+    <h2 class="section-title" style="font-size:3em;">قيم اليوم الوطني</h2>
+    <div style="display:flex; justify-content:center; gap:40px; margin-top:40px;">
+        <div style="background: rgba(0,0,0,0.6); padding: 30px 20px; border-radius: 20px; width: 40%; text-align:center;">
+            <h3 style="font-size:2.5em;">عزنا بكرمنا</h3>
+            <p style="font-size:1.3em; line-height:1.8em;">
+                الكرم جزء من هويتنا الوطنية، يعكس روح العطاء والمشاركة بين أفراد المجتمع السعودي.
+            </p>
+        </div>
+        <div style="background: rgba(0,0,0,0.6); padding: 30px 20px; border-radius: 20px; width: 40%; text-align:center;">
+            <h3 style="font-size:2.5em;">عزنا بطموحنا</h3>
+            <p style="font-size:1.3em; line-height:1.8em;">
+                الطموح يدفع المملكة لتحقيق إنجازات عظيمة في مختلف المجالات ويعكس رغبتنا في مستقبل أفضل.
+            </p>
+        </div>
+    </div>
+    <div style="display:flex; justify-content:center; margin-top:40px;">
+        <div style="background: rgba(0,0,0,0.6); padding: 30px 20px; border-radius: 20px; width: 40%; text-align:center;">
+            <h3 style="font-size:2.5em;">عزنا بجودنا</h3>
+            <p style="font-size:1.3em; line-height:1.8em;">
+                الجودة تعكس اهتمامنا بالتفاصيل والإبداع في العمل والحياة اليومية، وتضمن التميز في كل إنجازاتنا.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="fade-in" style="background: rgba(0,0,0,0.6); padding: 40px; border-radius: 20px; margin: 40px 0;">
+    <h2 class="section-title" style="font-size:3em;">عن اليوم الوطني السعودي</h2>
+    <p style="font-size:1.5em; line-height:2em;">
+        اليوم الوطني السعودي هو يوم يحتفل فيه كل مواطن سعودي بذكرى توحيد المملكة على يد الملك المؤسس عبدالعزيز بن عبدالرحمن آل سعود. يمثل هذا اليوم مناسبة وطنية غالية تعكس تاريخ المملكة العريق وإنجازاتها الحضارية، كما يعزز روح الانتماء والولاء للوطن. 
+        تُقام في هذا اليوم فعاليات متنوعة تشمل الاحتفالات المدرسية، المهرجانات الشعبية، الألعاب النارية، والأنشطة الثقافية والفنية التي تعكس تراث وهوية المملكة. 
+        كما يتيح اليوم الوطني الفرصة لجميع المواطنين للتعبير عن حبهم للوطن وتقدير تاريخه العريق وإنجازاته في مختلف المجالات. 
+        هذا اليوم يعزز التلاحم الاجتماعي والوحدة الوطنية بين أفراد الشعب السعودي، ويجسد فخرهم واعتزازهم بهويتهم الوطنية وتراثهم الثقافي الغني.
+    </p>
+</section>
+
+<section id="about-more" class="fade-in" style="background: rgba(0,0,0,0.6); padding: 40px; border-radius: 20px; margin: 40px 0;">
+    <h2 class="section-title" style="font-size:3em;">نبذة موسعة عن اليوم الوطني</h2>
+    <p style="font-size:1.5em;">اليوم الوطني السعودي مناسبة وطنية غالية على قلوب جميع السعوديين، إذ يحيي ذكرى توحيد المملكة على يد الملك المؤسس عبدالعزيز بن عبدالرحمن آل سعود. يمثل اليوم فرصة لتجديد الولاء والانتماء للوطن، والاحتفال بالإنجازات الحضارية والثقافية والاجتماعية للمملكة.</p>
+    <p style="font-size:1.5em;">تتنوع فعاليات اليوم الوطني بين عروض فنية، مهرجانات شعبية، ألعاب نارية، وفعاليات تعليمية ورياضية في مختلف المدن السعودية. كما تشارك المدارس والنوادي والجمعيات في تنظيم أنشطة تثقيفية وتراثية لتعزيز روح المواطنة والفخر بالهوية الوطنية.</p>
+    <p style="font-size:1.5em;">هذا اليوم يعكس أيضاً وحدة الشعب السعودي وتلاحمه، ويعتبر فرصة للتعبير عن الانتماء والاعتزاز بتاريخ المملكة وتراثها العريق.</p>
+    <h3 style="font-size:2em; margin-top: 40px;">قصيدة وطنية لليوم الوطني 95</h3>
+    <p style="font-size:1.5em;">
+        يا موطني يا فخر الأجيال<br>
+        عزّك فينا دومًا عالي مقام<br>
+        في يومك نحتفل بلا مثيل<br>
+        وطن الأمن والأمان والسلام<br>
+        حبك في قلوبنا سرمدي<br>
+        نهتف باسمك في كل زمان ومكان
+    </p>
+</section>
+
+<section id="events" class="fade-in">
+    <h2 class="section-title">الفعاليات</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>عرض الألعاب النارية</h3>
+            <p>ليلة احتفالية مميزة مع الألعاب النارية في أنحاء المملكة.</p>
+        </div>
+        <div class="card">
+            <h3>الاحتفالات المدرسية</h3>
+            <p>فعاليات مدرسية وتثقيفية للاحتفال بالوطن.</p>
+        </div>
+        <div class="card">
+            <h3>المهرجانات الشعبية</h3>
+            <p>عروض فنية وثقافية تعكس التراث السعودي.</p>
+        </div>
+    </div>
+</section>
+
+<section id="songs" class="fade-in">
+    <h2 class="section-title">أبرز الأغاني الوطنية</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>موعدنا 2030</h3>
+            <iframe width="100%" height="60" src="https://www.youtube.com/embed/eE7TsDjzCwM?controls=1"></iframe>
+        </div>
+        <div class="card">
+            <h3>فوق السحايب</h3>
+            <iframe width="100%" height="60" src="https://www.youtube.com/embed/B5ekeJ8Xk24?controls=1"></iframe>
+        </div>
+        <div class="card">
+            <h3>ونعم</h3>
+            <iframe width="100%" height="60" src="https://www.youtube.com/embed/I5hnNelVnTA?controls=1"></iframe>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p>© 2025 نادي الموهوبين - مدرسة عين جالوت - جمعية ريادة - مهارات المستقبل</p>
+</footer>
+
+<script>
+const faders = document.querySelectorAll('.fade-in');
+const options = {threshold: 0.3};
+const appearOnScroll = new IntersectionObserver(function(entries, observer){
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target);
+        }
+    });
+}, options);
+faders.forEach(fader => {appearOnScroll.observe(fader);});
+</script>
+
+</body>
+</html>
